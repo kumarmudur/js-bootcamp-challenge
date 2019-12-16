@@ -3,7 +3,7 @@
 // or false if it is not.  Palindromes are strings that
 // Examples
 // palindrome('abba') === true
-// palindrome('abcdfh') ===  
+// palindrome('abcdfh') ===  false
 
 // solution 1
 function palindrome(str) {
