@@ -13,7 +13,7 @@ function vowels(str) {
     const lowerCaseStr = str.toLowerCase();
     for (let char of lowerCaseStr) {
         if (checker.includes(char)) {
-            count++
+            count++;
         }
     }
     return count;
