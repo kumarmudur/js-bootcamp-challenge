@@ -13,11 +13,17 @@ class Queue {
         this.data = [];
     }
 
-    add (val) {
+    add(val) {
         this.data.unshift(val);
     }
 
     remove() {
         this.data.pop();
     }
+
+    peek() {
+        this.data[this.data.length - 1];
+    }
 }
+
+module.exports = Queue;
